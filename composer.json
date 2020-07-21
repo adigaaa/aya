@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/aya",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "abaza",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "ext-spltype": "*",
+    "ext-mysqli": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "classes"
+    }
+  }
+}
